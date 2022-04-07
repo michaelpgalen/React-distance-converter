@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// New API instead of ReactDOM.render ...
+// import * as ReactDOMClient from 'react-dom/client';
+// ReactDOMClient.createRoot(/*...*/);
+// ReactDOMClient.hydrateRoot(/*...*/);
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
